@@ -23,3 +23,10 @@ const getOrderedSizes = (items) => {
 
 const sizes = ['28L', '77', '4', '8', '10S', '28R', '12', '24', '28S', '44L'];
 console.log(getOrderedSizes(sizes));
+/* result [
+  '4',   '8',   '10S',
+  '12',  '24',  '28S',
+  '28R', '28L', '44L',
+  '77'
+]
+*/
